@@ -2,7 +2,27 @@
     margin: 0;
     padding: 0;
 }
-.wallpaper {
+
+body {
     width: 100vw;
     height: 100vh;
+    background-image: url(public/wallpaper.jpg);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact {
+    background-color:rgba(136, 136, 136, 0.3);
+    height: 25vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
